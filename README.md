@@ -3,6 +3,8 @@
 ## Project Overview
 This project analyzes how lowering the voting age affects youth trust in political institutions across Europe, using Harmonized Eurobarometer data (2004–2021) in Stata. The workflow includes data cleaning, descriptive statistics, and includes the final tables.
 
+The original harmonised_EB_2004-2021_v3-0-0.dta dataset was too large to share in this repository, so a smaller subset file is provided instead.
+
 ## Data Sources
 The following publicly available datasets were used:
 
