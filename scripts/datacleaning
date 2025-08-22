@@ -1207,29 +1207,3 @@ rename gender female
 
 // dropping missing
 drop if missing(lowvotage) | missing(avg_trms) | missing(female) | missing(age) | missing(education) | missing(lr) | missing(corr) | missing(goveff)
-
-* Descriptive Statistics
-
-sum avg_trms [aw=wnation]
-sum female [aw=wnation]
-sum age [aw=wnation]
-sum noeducation [aw=wnation]
-sum highschool [aw=wnation]
-sum university [aw=wnation]
-sum student [aw=wnation]
-sum lr [aw=wnation]
-sum goveffect [aw=wnation]
-sum corruption [aw=wnation]
-
-* Comparative Statistics - Lowered vs 18 voting age
-
-reg avg_trms lowvotage [aw=wnation]
-reg female lowvotage [aw=wnation]
-reg age lowvotage [aw=wnation]
-reg noeducation lowvotage [aw=wnation]
-reg highschool lowvotage [aw=wnation]
-reg university lowvotage [aw=wnation]
-reg student lowvotage [aw=wnation]
-reg lr lowvotage [aw=wnation]
-reg goveffect lowvotage [aw=wnation]
-reg corruption lowvotage [aw=wnation]
